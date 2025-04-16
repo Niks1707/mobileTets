@@ -7,7 +7,6 @@ import org.aeonbits.owner.Config;
         "classpath:properties/android.properties"
 })
 public interface WebDriverConfig extends Config {
-
     @Key("browserstack.user")
     String getBrowserstackUser();
 

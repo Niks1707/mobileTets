@@ -17,7 +17,6 @@ public class BrowserstackDriver implements WebDriverProvider {
     public BrowserstackDriver() {
         this.config = ConfigFactory.create(WebDriverConfig.class, System.getProperties());
     }
-
     @Nonnull
     @Override
     public WebDriver createDriver(@Nonnull Capabilities capabilities) {
