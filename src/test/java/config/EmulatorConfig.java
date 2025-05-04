@@ -5,7 +5,7 @@ import org.aeonbits.owner.Config;
 @Config.Sources({
         "classpath:properties/${deviceHost}.properties"
 })
-public interface EmulatorConfig extends Config{
+public interface EmulatorConfig extends Config {
 
     @Key("deviceName")
     String deviceName();
